@@ -21,11 +21,9 @@ with the date the photo was taken. The first console.log should return the follo
 
 */
 
-for (var prop in flickrObj){
-    for (var i = 0 ; i < flickrObj.items.length ;i++){
+for (var i = 0 ; i < flickrObj.items.length ;i++){
        console.log("\n" + flickrObj.items[i].title + "\n" +  flickrObj.items[i].date_taken + "\n");
     }
-}
 
 /*
 3. Create a new array called 'links'. Iterate through the items array in flickrObj and store the the links to each item in the 'links' array.
@@ -33,10 +31,8 @@ for (var prop in flickrObj){
 
 
 var links = [ ];
-for (var prop2 in flickrObj){
-    for (var i = 0 ; i < flickrObj.items.length ;i++){
-            links.push(flickrObj.items[0].link);
-    }
+for (var i = 0 ; i < flickrObj.items.length ;i++){
+        links.push(flickrObj.items[i].link);
 }
 console.log(links);
 
