@@ -26,7 +26,7 @@ var diceLeft = ["img/1.png" , "img/2.png" ,"img/3.png", "img/4.png" , "img/5.png
 var diceRight = ["img/1.png" , "img/2.png" ,"img/3.png", "img/4.png" , "img/5.png" , "img/6.png"];
 
 
-//2 Insetad of calling them array elements by their fixed IDs (ex:diceLeft[4]), for both arrays I need to call array elements by a variable which randomly changes from 0 to 5
+//2 Insetad of calling the array elements by their fixed IDs (ex:diceLeft[4]), for both arrays I need to call array elements by a variable which randomly changes from 0 to 5
 
 //var random1 = Math.floor(Math.random() * 6 );
 //var random2 = Math.floor(Math.random() * 6 );
