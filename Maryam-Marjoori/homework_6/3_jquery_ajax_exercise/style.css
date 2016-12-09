@@ -1,0 +1,86 @@
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat);*/
+
+* {
+    margin: 0; 
+    padding: 0;
+    }
+
+html {
+	height: 100%;
+	/*Image only BG fallback*/
+	
+	/*background = gradient + image pattern combo*/
+	background: 
+		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+body {
+	font-family: arial, verdana;
+}
+
+h1 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+ul{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: darkgray;
+}
+
+li {
+    list-style-type: none;
+}
+
+#get-city-form {
+    width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+    
+
+}
+
+#wrapper{
+    background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+    position: relative;
+}
+
+#get-city-form  input {
+    padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: arial;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+.ask-weather-button {
+    width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+
+.ask-weather-button::hover , .ask-weather-button::focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
